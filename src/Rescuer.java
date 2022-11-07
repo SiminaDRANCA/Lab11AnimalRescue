@@ -1,14 +1,23 @@
 public class Rescuer {
-    String name;
-    double income;
+    private String name;
+    private double income;
 
-    public Rescuer (String rescuerName, double rescuerIncome){
-
-    name = rescuerName;
-    income = rescuerIncome;
-
-
+    public void setName(String name){
+        this.name = name;
     }
+    public String getName();{
+        return name;
+    }
+
+    public void setIncome(double income){
+        this.income = income;
+    }
+    public double getIncome();{
+        return income;
+    }
+    public Rescuer (String get.name, double get.income){
+
+        }
 
 
 }

@@ -1,9 +1,20 @@
 public class RecreationalActivities {
-String name;
-double duration;
+private String name;
+private double duration;
 
-public RecreationalActivities (String activityName, double activityDuration){
-    name = activityName;
-    duration = activityDuration;
+    public void setName(String name){
+        this.name = name;
+    }
+    public String getName();{
+        return name;
+    }
+
+    public void setDuration(double duration){
+        this.duration = duration;
+    }
+    public double getDuration();{
+        return duration;
+    }
+public RecreationalActivities (String get.name, double get.duration){
 }
 }
