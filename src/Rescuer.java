@@ -5,18 +5,17 @@ public class Rescuer {
     public void setName(String name){
         this.name = name;
     }
-    public String getName();{
+    public String getName(){
         return name;
     }
 
     public void setIncome(double income){
         this.income = income;
     }
-    public double getIncome();{
+    public double getIncome() {
         return income;
     }
-    public Rescuer (String get.name, double get.income){
-
+        public Rescuer (){
         }
 
 

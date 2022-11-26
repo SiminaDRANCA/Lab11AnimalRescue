@@ -5,16 +5,16 @@ private double duration;
     public void setName(String name){
         this.name = name;
     }
-    public String getName();{
+    public String getName()
+    {
         return name;
     }
 
     public void setDuration(double duration){
         this.duration = duration;
     }
-    public double getDuration();{
+    public double getDuration()
+    {
         return duration;
     }
-public RecreationalActivities (String get.name, double get.duration){
-}
 }

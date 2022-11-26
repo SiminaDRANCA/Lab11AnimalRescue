@@ -36,7 +36,7 @@ public class Main {
 
     Vet doctor1 = new Vet();
     doctor1.setName("Martin NEWMAN");
-    doctor1.setexperience(15);
+    doctor1.setExperience(15);
     doctor1.setSpecialty("feline and canine nutrition");
     System.out.println("From the 1st of October the shelter has a new veterinarian doctor named " + doctor1.getName() +
             " who is a very pleasant colleague that brings " + doctor1.getExperience()+ " years of experience in " +

@@ -1,9 +1,9 @@
 public class Animal {
     private String name;
     private int age;
-    private short health;
-    private short hungerLevel;
-    private short mood;
+    private int health;
+    private int hungerLevel;
+    private int mood;
     private String favouriteFood;
     private String favouriteActivity;
 
@@ -11,7 +11,7 @@ public class Animal {
         this.name = name;
     }
 
-    public String getName();
+    public String getName()
 
     {
         return name;
@@ -21,37 +21,37 @@ public class Animal {
         this.age = age;
     }
 
-    public String getAge();
+    public int getAge()
 
     {
         return age;
     }
 
-    public void setHealth(short health) {
+    public void setHealth(int health) {
         this.health = health;
     }
 
-    public short getHealth();
+    public int getHealth()
 
     {
         return health;
     }
 
-    public void setHungerLevel(short hungerLevel) {
+    public void setHungerLevel(int hungerLevel) {
         this.hungerLevel = hungerLevel;
     }
 
-    public short getHungerLevel();
+    public int getHungerLevel()
 
     {
         return hungerLevel;
     }
 
-    public void setMood(short mood) {
+    public void setMood(int mood) {
         this.mood = mood;
     }
 
-    public short getMood();
+    public int getMood()
 
     {
         return mood;
@@ -61,7 +61,7 @@ public class Animal {
         this.favouriteFood = favouriteFood;
     }
 
-    public String getFavouriteFood();
+    public String getFavouriteFood()
 
     {
         return favouriteFood;
@@ -71,16 +71,13 @@ public class Animal {
         this.favouriteActivity = favouriteActivity;
     }
 
-    public String getFavouriteActivity();
+    public String getFavouriteActivity()
 
     {
         return favouriteActivity;
     }
 
 
-    public Animal(String this.name, int this.age, short this.health, short this.hungerLevel,
-                  short this.mood, String this.favouriteFood, String this.favouriteActivity) {
 
-    }
 }
 
